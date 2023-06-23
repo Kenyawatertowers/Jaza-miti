@@ -1,0 +1,65 @@
+.container{
+    display: block;
+    position: relative;
+    margin: 40px auto;
+    height: auto;
+    width: 800px;
+    padding: 20px;
+
+    .title{
+        font-size: 3em;
+        text-align: center;
+        border: 5px solid #2e8b57;
+        padding: .3em .2em;
+        border-radius: 4px;
+
+    }
+    .text-light {
+        color: #26bdef;
+    }
+
+    ol li{
+        font-size: 1.4em;
+        color: #666666;
+        height: 50px;
+    }
+    
+    .start{
+        display: flex;
+        justify-content: center;
+        padding-top: 2em;
+    }
+    
+    .start .btn{
+        padding: .8em 1.9em;
+        border: none;
+        border-radius: .1em;
+        font-size: 1.2em;
+        color: #202020;
+        text-decoration: none;
+        background-color: #26bdef;
+    }
+    
+    #form{
+        display: flex;
+        justify-content: center;
+        margin-top: 4em;
+    }
+    
+    #form .userid{
+        padding: .7em 2em;
+        width: 50%;
+        border: none;
+        border-radius: 3px;
+        font-size: 1em;
+
+    }
+
+    // li{
+    //     color: #2CA8FF;
+    //     position: relative;
+    //     float: left;
+    //     width: 100%;
+    //     height: 50px;
+    //     }
+  }

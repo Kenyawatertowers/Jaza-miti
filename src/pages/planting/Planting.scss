@@ -1,0 +1,49 @@
+.planting{
+    display: flex;
+
+    .plantingContainer{
+        flex: 6;
+
+        .title{
+            font-size: large;
+            display: flex;
+            text-align: center;
+            justify-content: space-around;
+
+            .time{
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            .update{
+                margin-top: 20px;
+                background-color:  #26bdef;
+                border-radius: 15px;
+                margin-bottom: 15px;
+                padding: 10px;
+                color: white;
+            }
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+
+            input{
+                padding: 20px;
+                border:none;
+                outline: none;
+                border-bottom: 1px solid #26bdef;
+            }
+        }
+        .avatar{
+            font-size: xx-large;
+        }
+        .submit{
+            margin-top: 15px;
+            border-radius: 10px;
+            padding: .2em 1.7em;
+            background-color: #26bdef;
+        }
+
+    }
+}
